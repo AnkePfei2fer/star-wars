@@ -1,8 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bungee+Inline&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* FONT */
+  --font-family-appTitle: "Bungee Inline", cursive;
+  --font-family-header: "Black Han Sans", sans-serif;
+  --font-family-text: "MuseoModerno", cursive;
+
+  /* COLORS */
+  --color-background-main: #0d0d0d;
+  --color-background-cards: #261e1767;
+  --color-text: #f2d272;
+  --color-text-cards: #18a2d9;
+  --color-text-highlight: #f25d27;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.header {
+  padding: 4rem 1rem;
+  font-family: var(--font-family-header);
+}
+
+.appTitle {
+  font-size: 4.5rem;
+  letter-spacing: -0.3rem;
+  color: black;
+  -webkit-text-stroke: 0.5px var(--color-text);
+  margin: 0;
+}
+
+.appSubtitle {
+  font-size: 2rem;
+  color: var(--color-text);
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family-text);
+  background-color: var(--color-background-main);
+  color: var(--color-text);
+  background-image: url("./assets/background-image.png");
+  background-size: cover;
+  background-repeat: repeat-y;
+  margin: 0;
+}
+
+.main {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.footer {
+  font-family: var(--font-family-text);
+  color: var(--color-text);
+  text-align: right;
+  font-size: 0.75rem;
 }
