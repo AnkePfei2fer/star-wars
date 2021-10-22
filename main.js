@@ -1,6 +1,8 @@
 import "./style.css";
+import { createMainElement } from "./lib/mainElement";
 
-document.querySelector("#app").innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`;
+const appElement = document.body.querySelector("#app");
+
+const mainElement = createMainElement();
+
+appElement.append(mainElement);

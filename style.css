@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 *,
 *::after,
@@ -8,19 +8,20 @@
 
 :root {
   /* FONT */
-  --font-family-header: 'Black Han Sans', sans-serif;
-  --font-family-text: 'MuseoModerno', cursive;
+  --font-family-header: "Black Han Sans", sans-serif;
+  --font-family-text: "MuseoModerno", cursive;
 
   /* COLORS */
-  --color-background-main: #0D0D0D;
+  --color-background-main: #0d0d0d;
   --color-background-cards: #590242;
-  --color-text: #BDBF78;
-  --color-text-highlight: #D0F252;
+  --color-text: #bdbf78;
+  --color-text-highlight: #d0f252;
 }
 
 body {
   font-family: var(--font-family-text);
   background-color: var(--color-background-main);
+  color: var(--color-text);
 }
 
 /* VERIFY THESE */
