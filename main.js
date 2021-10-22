@@ -3,7 +3,7 @@ import { createMainElement } from "./lib/mainElement";
 import { createFooterElement } from "./lib/footerElement";
 import { createHeaderElement } from "./lib/headerElement";
 import { fetchCharacters } from "./lib/fetchAPI";
-import { fetchRandomCharacter } from "./lib/fetchAPI";
+// import { fetchRandomCharacter } from "./lib/fetchAPI";
 
 const appElement = document.body.querySelector("#app");
 
