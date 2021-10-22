@@ -2,10 +2,10 @@ import createElement from "../lib/elements";
 import styles from "./cardComponent.module.css";
 
 // Declare the function for creating card components
-export function createCardComponent({ name, homeworld }) {
+export function createCardComponent({ name, homeworld }, characterId) {
   const picture = createElement("img", {
     className: styles.picture,
-    src: "https://raw.githubusercontent.com/tbone849/star-wars-guide/master/build/assets/img/characters/1.jpg",
+    src: `https://raw.githubusercontent.com/tbone849/star-wars-guide/master/build/assets/img/characters/${characterId}.jpg`,
   });
   const cardTitle = createElement("h2", {}, name);
   const homeworldElement = createElement("span", {}, homeworld);

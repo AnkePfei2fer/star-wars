@@ -14,9 +14,10 @@
 
   /* COLORS */
   --color-background-main: #0d0d0d;
-  --color-background-cards: #261e1767;
+  --color-background-cards: #3b5e8c4b;
   --color-text: #f2d272;
   --color-text-cards: #18a2d9;
+  --color-text-body: #3b5e8c;
   --color-text-highlight: #f25d27;
 }
 
@@ -55,8 +56,14 @@ body {
 
 .main {
   display: grid;
+  place-items: center;
   gap: 2rem;
   margin: 2rem;
+}
+
+.subheader {
+  color: var(--color-text-body);
+  font-size: 2rem;
 }
 
 .footer {

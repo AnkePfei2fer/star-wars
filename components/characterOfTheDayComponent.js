@@ -4,7 +4,7 @@ import styles from "./characterOfTheDayComponent.module.css";
 // Declare the function for creating card components
 export function createCharacterOfTheDayComponent(randomNumber) {
   const picture = createElement("img", {
-    classname: styles.picture,
+    className: styles.picture,
     src: `https://raw.githubusercontent.com/tbone849/star-wars-guide/master/build/assets/img/characters/${randomNumber}.jpg`,
   });
 
