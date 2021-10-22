@@ -24,6 +24,12 @@ body {
   color: var(--color-text);
 }
 
+.footer {
+  font-family: var(--font-family-text);
+  background-color: var(--color-background-main);
+  color: var(--color-text);
+}
+
 /* VERIFY THESE */
 #app {
   -webkit-font-smoothing: antialiased;
