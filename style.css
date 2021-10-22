@@ -16,7 +16,7 @@
   --color-background-main: #0d0d0d;
   --color-background-cards: #261e1767;
   --color-text: #f2d272;
-  --color-text-cards: #03588c;
+  --color-text-cards: #18a2d9;
   --color-text-highlight: #f25d27;
 }
 
@@ -30,7 +30,8 @@
 }
 
 .appTitle {
-  font-size: 4rem;
+  font-size: 4.5rem;
+  letter-spacing: -0.3rem;
   color: black;
   -webkit-text-stroke: 0.5px var(--color-text);
   margin: 0;

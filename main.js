@@ -8,7 +8,6 @@ const appElement = document.body.querySelector("#app");
 
 // Fetch character data from SWAPI
 const characters = await fetchCharacters();
-
 const headerElement = createHeaderElement();
 const mainElement = createMainElement(characters);
 const footerElement = createFooterElement();
