@@ -14,10 +14,11 @@
 
   /* COLORS */
   --color-background-main: #0d0d0d;
-  --color-background-cards: #261e1767;
+  --color-background-button: rgb(60, 90, 140);
+  --color-background-cards: rgba(60, 90, 140, 0.3);
   --color-text: #f2d272;
   --color-text-cards: #18a2d9;
-  --color-text-highlight: #f25d27;
+  --color-text-body: #3b5e8c;
 }
 
 #app {
@@ -25,7 +26,7 @@
 }
 
 .header {
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 1rem 1rem;
   font-family: var(--font-family-header);
 }
 
@@ -53,15 +54,29 @@ body {
   margin: 0;
 }
 
+.subheader {
+  color: var(--color-text-body);
+  font-size: 2rem;
+  margin: 0;
+}
+
 .main {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  place-items: center;
   gap: 2rem;
   margin: 2rem;
 }
 
 .footer {
   font-family: var(--font-family-text);
-  color: var(--color-text);
+  color: var(--color-text-body);
   text-align: right;
   font-size: 0.75rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer > * {
+  margin: 0;
 }
