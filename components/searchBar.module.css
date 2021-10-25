@@ -1,0 +1,28 @@
+.search {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 20rem;
+  gap: 2rem;
+}
+
+.submitButton {
+  font-family: var(--font-family-header);
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  border: solid var(--color-text) 1px;
+  background-color: var(--color-background-cards);
+  color: var(--color-text);
+}
+
+.inputField {
+  font-family: var(--font-family-text);
+  border-radius: 0.3rem;
+  border: none;
+  background-color: var(--color-text-cards);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: var(--color-text-header);
+}

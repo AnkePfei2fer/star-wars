@@ -15,7 +15,7 @@ export default function createSearchBar(onSubmit) {
       type: "submit",
       className: styles.submitButton,
     },
-    ["Go!"]
+    ["GO!"]
   );
 
   const searchBar = createElement(
