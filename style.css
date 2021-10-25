@@ -53,8 +53,10 @@ body {
   margin: 0;
 }
 
-.top {
-  display: grid;
+.subheader {
+  color: var(--color-text-body);
+  font-size: 2rem;
+  margin: 0;
 }
 
 .main {
@@ -63,13 +65,6 @@ body {
   place-items: center;
   gap: 2rem;
   margin: 2rem;
-}
-
-.subheader {
-  color: var(--color-text-body);
-  font-size: 2rem;
-  margin-top: 4rem;
-  margin-bottom: 0;
 }
 
 .footer {

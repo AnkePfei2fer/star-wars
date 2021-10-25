@@ -1,7 +1,7 @@
 .search {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 1rem 20rem;
+  margin: 2rem 20rem;
   gap: 2rem;
 }
 

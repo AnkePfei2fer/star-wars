@@ -1,7 +1,7 @@
 import createElement from "../lib/elements";
 import styles from "./cardComponent.module.css";
 
-// Declare the function for creating card components
+// Declare function for creating card components
 export function createCardComponent(
   { name, species, homeworld, birth_year },
   characterId
