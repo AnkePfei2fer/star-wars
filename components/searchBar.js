@@ -2,7 +2,7 @@ import createElement from "../lib/elements";
 import styles from "./searchBar.module.css";
 
 // Declare function to create search bar
-export default function createSearchBar(onSubmit) {
+export function createSearchBar(onSubmit) {
   const inputField = createElement("input", {
     type: "text",
     placeholder: "Search characters",
