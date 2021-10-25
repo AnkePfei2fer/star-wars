@@ -11,10 +11,11 @@
 .name {
   position: absolute;
   bottom: 0;
-  right: 20rem;
+  left: 50%;
   align-self: end;
   background-color: var(--color-background-cards);
   color: var(--color-text);
+  margin-left: 1rem;
   padding: 1rem 5rem;
   border-radius: 2rem;
   opacity: 0;

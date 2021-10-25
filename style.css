@@ -68,6 +68,8 @@ body {
 .subheader {
   color: var(--color-text-body);
   font-size: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 0;
 }
 
 .footer {
