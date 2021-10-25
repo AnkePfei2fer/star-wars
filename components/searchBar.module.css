@@ -1,7 +1,7 @@
 .search {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2rem 20rem;
+  margin: 2rem 25rem;
   gap: 2rem;
 }
 
@@ -10,7 +10,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   border-radius: 0.5rem;
-  border: solid var(--color-text) 1px;
+  border: solid var(--color-text) 2.5px;
   background-color: var(--color-background-cards);
   color: var(--color-text);
 }
