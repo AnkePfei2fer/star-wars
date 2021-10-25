@@ -11,7 +11,7 @@
   font-weight: 700;
   border-radius: 0.5rem;
   border: solid var(--color-text) 2.5px;
-  background-color: var(--color-background-cards);
+  background-color: var(--color-background-button);
   color: var(--color-text);
 }
 
