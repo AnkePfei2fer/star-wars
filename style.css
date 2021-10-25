@@ -14,7 +14,7 @@
 
   /* COLORS */
   --color-background-main: #0d0d0d;
-  --color-background-cards: #3b5e8c4b;
+  --color-background-cards: rgba(60, 90, 140, 0.3);
   --color-text: #f2d272;
   --color-text-cards: #18a2d9;
   --color-text-body: #3b5e8c;
@@ -53,8 +53,13 @@ body {
   margin: 0;
 }
 
+.top {
+  display: grid;
+}
+
 .main {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   place-items: center;
   gap: 2rem;
   margin: 2rem;

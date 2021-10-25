@@ -1,5 +1,26 @@
+.characterOfTheDay {
+  position: relative;
+}
+
 .picture {
   border-radius: 50%;
   width: 20rem;
   filter: drop-shadow(0 0 2rem var(--color-text-body));
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  right: 20rem;
+  align-self: end;
+  background-color: var(--color-background-cards);
+  color: var(--color-text);
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.picture:hover + #name {
+  opacity: 1;
 }
